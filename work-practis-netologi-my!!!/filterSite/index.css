@@ -1,0 +1,32 @@
+#Input {
+	width: 100%;
+	font-size: 18px;
+	padding: 15px 20px 12px 5px;
+	border: 3px solid rgb(93, 87, 87);
+	box-shadow: 10px 5px 5px red;
+}
+
+#MyUI{
+
+	list-style: none;
+	padding: 13px 0px 0px 0px ;
+	margin: 0;
+	
+}
+
+.header{
+	padding: 7px 20px 12px 20px;
+	width: 100%;
+	font-size: 18px;
+	display: block;
+	font-size: 30px;
+	text-decoration: none;
+background-color: rgba(82, 76, 76, 0.1);
+}
+
+a{
+	text-decoration: none;
+	font-size: 18px;
+line-height: 40px;
+}
+
