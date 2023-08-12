@@ -16,3 +16,21 @@ let obj = {
 		3: 26,
 	},
 }
+
+function sumObject(obj) {
+
+	let sum = 0
+
+	for (key in obj) {
+		if (typeof obj[key] === 'number') {
+			sum += obj[key]
+		} else if (typeof obj[key] === 'object') {
+			sum += sumObject(obj[key])
+		}
+	}
+
+	return sum
+
+}
+
+console.log(sumObject(obj))
